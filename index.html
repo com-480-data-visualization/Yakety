@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Agricultural Data</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson-client@3"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="Content-Type" content="text/javascript; charset=utf-8">
+</head>
+<body>
+    <header class="header-background">
+        <div class="header-content">
+            <h1>Global Agricultural Analytics</h1>
+        </div>
+    </header>
+
+    <section class="container">
+        <div class="chart-card full-width">
+            <h2>World Agricultural Production
+                <select id="metric-select" class="flat-select">
+                    <option value="wheat">Wheat</option>
+                    <option value="rice">Rice</option>
+                    <option value="corn">Corn</option>
+                </select>
+            </h2>
+            <div id="world-map" class="chart-area"></div>
+        </div>
+    </secticon>
+
+    <script type="module"  src="js/charts/productionTrends.js"></script>
+    <script type="module" src="js/charts/worldMap.js"></script>
+
+</body>
+</html>

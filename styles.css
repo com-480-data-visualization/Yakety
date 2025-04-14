@@ -1,0 +1,138 @@
+/* styles.css */
+:root {
+    --primary-color: #4CAF50;
+    --background-color: #f5f7fa;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: var(--background-color);
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.chart-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.full-width {
+    grid-column: 1 / -1;
+}
+
+.chart-area {
+    height: 600px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.flat-select {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.map-tooltip {
+    position: absolute;
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    pointer-events: none;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.country:hover {
+    stroke-width: 1.5px !important;
+}
+
+.legend text {
+    font-size: 12px;
+}
+
+ /* 新增样式 */
+.chart-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  #bar-chart, #pie-chart {
+    height: 400px;
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+  }
+  
+  .tick text {
+    font-size: 12px;
+  }
+  
+  .pie-label {
+    font-size: 10px;
+    fill: #333;
+  }
+
+  /* 趋势图表专用样式 */
+.trend-chart {
+    display: grid;
+    grid-template-rows: 1fr 60px;
+    height: 500px;
+  }
+  
+  #country-bars {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 10px;
+  }
+  
+  .country-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bar-container {
+    flex-grow: 1;
+    height: 30px;
+    background: #f0f0f0;
+  }
+  
+  .bar {
+    height: 100%;
+    background: #4CAF50;
+    transition: width 0.5s;
+  }
+  
+  #timeline {
+    position: relative;
+    height: 50px;
+  }
+  
+  .timeline-marker {
+    position: absolute;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: red;
+  }
+
+  .controls {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  .empty-data {
+    color: #666;
+    padding: 20px;
+    text-align: center;
+  }
