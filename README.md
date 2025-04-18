@@ -8,9 +8,8 @@
 ## Website Skeleton
 
 - Live preview: [live]  
-- Source code: [source]
+- js code: [source_js]
 
-[fig]: https://www.figma.com/file/your‑project‑id/Global‑Agricultural‑Trends‑Sustainability‑Visualization  
-[doc]: https://htmlpreview.github.io/?https://github.com/com-480-data-visualization/Yakety/blob/milestone2/document.pdf  
+[doc]: https://github.com/com-480-data-visualization/Yakety/blob/milestone2/document.pdf
 [live]: https://htmlpreview.github.io/?https://github.com/com-480-data-visualization/Yakety/blob/milestone2/index.html  
-[source]: https://github.com/com-480-data-visualization/Yakety/tree/milestone2/js  
+[source_js]: https://github.com/com-480-data-visualization/Yakety/tree/milestone2/js  
