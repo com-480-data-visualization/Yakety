@@ -3,6 +3,10 @@
 A comprehensive data visualization project that explores global agricultural production, sustainability metrics, and regional trends from 1961 to 2007.
 Link：https://com-480-data-visualization.github.io/Yakety/
 
+A process book showcases the progression of the design workflow: [doc]
+
+[doc]: https://github.com/com-480-data-visualization/Yakety/Milestone3_document.pdf
+
 ## Project Overview
 
 This project provides an interactive visualization platform for analyzing global agricultural data, focusing on:
