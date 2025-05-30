@@ -4,13 +4,12 @@ A comprehensive data visualization project that explores global agricultural pro
 
 Link：https://com-480-data-visualization.github.io/Yakety/
 
-A process book showcases the progression of the design workflow: [link]
+A process book showcases the progression of the design workflow: [process book]
 
-[link]: https://github.com/com-480-data-visualization/Yakety/blob/main/Milestone3_document.pdf
+The screencast of what you can do with this viz: [video demo]
 
-The screencast of  what you can do with this viz: [link]
-
-[link]: https://drive.google.com/file/d/1xxzw705Revbu-JilgRqR-St8mPpEBAr0/view?usp=sharing
+[process book]: https://github.com/com-480-data-visualization/Yakety/blob/main/Milestone3_document.pdf
+[video demo]: https://drive.google.com/file/d/1xxzw705Revbu-JilgRqR-St8mPpEBAr0/view?usp=sharing
 
 ## Project Overview
 
